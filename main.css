@@ -1,0 +1,33 @@
+h1{
+    text-align: center;
+}
+body{
+    display: block;
+   
+}
+.container{
+    width: 50%;
+    margin: auto;
+}
+input, button{
+    width: 100%;
+    display: block;
+    margin: 1rem 1rem;
+}
+.btn-submit{
+    display: block;
+    width: 50%;
+    margin-top: 1rem;
+    margin: auto;
+    padding: 0.8rem;
+    color: black;
+    border: none;
+    border-radius: 1rem;
+    background-color: #1be334;
+    border-width: medium;
+}
+.output{
+    text-align: center;
+    font-size: larger;
+    margin: 1rem;
+}

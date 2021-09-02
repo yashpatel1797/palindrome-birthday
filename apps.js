@@ -4,7 +4,6 @@ function reverseStr(date){
     var dateJoin = daterev.join('');
     return dateJoin;
 }
-
 function isPalindrome(str){
     var reverse = reverseStr(str);
     return str === reverse;
@@ -182,7 +181,6 @@ function clickHandler(){
             month: Number(dateList[1]),
             year: Number(dateList[0])
         }
-
         var isPalindrome = checkPalindromeForAllFormats(date);
 
         if(isPalindrome){
